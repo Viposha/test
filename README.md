@@ -1,15 +1,19 @@
 GIT and VCS related stuff
-Setup git account via PyCharm -> you should be able to pull/push commits within your IDE
-Add a .gitignore file to your repo
-after updating your local repo from portal, for any further refactoring or development create a separate brunch; e.g. for today's refactoring create refactoring_Apr_10 brunch Do not create merge requests yet, simply add you changes in different branches Tip -> first checkout new brunch, than start coding
-try to switch between branches and try to spot the difference
-Refactoring of the existing code base
-Rename file into main.py [x]
++ Setup git account via PyCharm -> you should be able to pull/push commits within your IDE
++ Add a .gitignore file to your repo
++after updating your local repo from portal, for any further refactoring or development create a separate brunch; e.g. for today's refactoring create refactoring_Apr_10 brunch Do not create merge requests yet, simply add you changes in different branches Tip -> first checkout new brunch, than start coding # brunch dev
 
-Add default python design via if name == main :
+try to switch between branches and try to spot the difference
+
+Refactoring of the existing code base
++Rename file into main.py [x]
+
++Add default python design via if name == main :
 
 IDE raises error for main function -> define a corresponding func
 You can use pass keyword for now
+
+
 Split the range size input number with the thousand separator (Make a commit here) Tip - look for underscore sign
 
 Format the output of object size to use a thousand separator (e.g. 2,800,496 bytes) ; Tip - look for f-string internal syntax formatting
