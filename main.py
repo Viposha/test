@@ -1,7 +1,7 @@
 def main():
     import sys  # TODO now import only the function that is being used from module
     import time
-
+    # start change
     start = time.time()
 
     test_set = range(100000)
